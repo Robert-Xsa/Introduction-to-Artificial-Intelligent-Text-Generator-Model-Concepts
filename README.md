@@ -77,7 +77,41 @@ Neural Language Models have significantly advanced the field of natural language
 
 A "Text Generator Using Word-based Encoding" is a type of natural language processing (NLP) model that generates human-like text based on word-level representations of language. In this context, "word-based encoding" refers to the representation of words as numerical vectors or embeddings, allowing a machine learning model to process and generate text at the level of individual words.
 
+The key components and steps involved in a Text Generator Using Word-based Encoding are;
 
+**i. Data Preparation**
+
+Load and clean text data from a corpus or dataset.
+Tokenize the text into individual words.
+
+**ii. Word Mapping and Embeddings**
+
+Create a vocabulary of unique words in the text.
+Assign a unique integer index to each word in the vocabulary.
+Represent each word as a dense vector using word embeddings. Pre-trained embeddings (e.g., Word2Vec, GloVe) can be used or embeddings can be learned during model training.
+
+**iii. Input-Output Sequences**
+
+Define a sequence length (number of words per input sequence).
+Create input-output pairs based on the chosen sequence length, where the input is a sequence of words, and the output is the next word in the sequence.
+
+**iv. Model Architecture**
+
+Choose an appropriate neural network architecture, such as recurrent neural networks (RNNs), long short-term memory networks (LSTMs), or transformers.
+Set up the input layer with the specified sequence length and embedding dimensions.
+Design hidden layers to capture contextual information.
+Set up the output layer with softmax activation for predicting the next word.
+
+**v. Compile and Train**
+
+Compile the model with an appropriate loss function (e.g., categorical cross-entropy) and optimizer.
+Train the model on the prepared input-output pairs using a large dataset.
+
+**vi. Text Generation**
+
+Provide a seed sequence of words.
+Use the trained model to predict the next word.
+Update the seed sequence with the predicted word and repeat the process to generate longer sequences of text.
 
 
 
