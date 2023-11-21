@@ -113,5 +113,7 @@ Provide a seed sequence of words.
 Use the trained model to predict the next word.
 Update the seed sequence with the predicted word and repeat the process to generate longer sequences of text.
 
+To see how these process are demonstrated, refer to my kaggle notebook via the following link;
 
+https://www.kaggle.com/code/robertgembe/text-generator-using-word-based-encoding/
 
