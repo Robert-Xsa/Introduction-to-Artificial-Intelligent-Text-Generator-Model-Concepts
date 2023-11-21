@@ -73,7 +73,7 @@ Challenges include the need for extensive computational resources, potential bia
 
 Neural Language Models have significantly advanced the field of natural language processing, enabling machines to understand, generate, and interact with human language in ways that were previously challenging with traditional approaches.
 
-Text Generator Using Word-based Encoding
+**Text Generator Using Word-based Encoding**
 
 A "Text Generator Using Word-based Encoding" is a type of natural language processing (NLP) model that generates human-like text based on word-level representations of language. In this context, "word-based encoding" refers to the representation of words as numerical vectors or embeddings, allowing a machine learning model to process and generate text at the level of individual words.
 
