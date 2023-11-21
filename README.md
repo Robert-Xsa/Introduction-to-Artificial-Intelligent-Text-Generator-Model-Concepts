@@ -38,3 +38,35 @@ Some text generation models use reinforcement learning techniques, where the mod
 Neural Language Models (NLMs) are a class of machine learning models that leverage neural networks to understand and generate human-like language. These models have significantly advanced natural language processing tasks by capturing complex patterns and contextual relationships in large datasets.
 
 Key characteristics include:
+
+**i. Sequence Learning**
+
+NLMs specialize in sequential data processing, making them well-suited for tasks involving natural language, which is inherently sequential.
+
+**ii. Word Embeddings**
+
+Words are typically represented as dense vectors, known as word embeddings. These embeddings capture semantic relationships and similarities between words.
+
+**iii. Architectures**
+
+Common architectures include Recurrent Neural Networks (RNNs), Long Short-Term Memory Networks (LSTMs), and Transformers. Each excels at capturing different aspects of sequential information.
+
+**iv. Contextual Understanding**
+
+NLMs excel in capturing contextual information, allowing them to understand and generate language that is contextually relevant and coherent.
+
+**v. Applications**
+
+Used for a wide range of applications, including text generation, machine translation, sentiment analysis, summarization, and question-answering.
+
+**vi. GPT and BERT**
+
+Notable examples include OpenAI's Generative Pre-trained Transformer (GPT) series and Bidirectional Encoder Representations from Transformers (BERT). These models have achieved state-of-the-art results in various language tasks.
+
+**vii. Pre-training and Fine-tuning**
+
+Many NLMs are pre-trained on large datasets, learning general language representations. They can then be fine-tuned on specific tasks with smaller, task-specific datasets.
+
+**viii. Challenges**
+
+Challenges include the need for extensive computational resources, potential biases learned from training data, and ethical considerations surrounding responsible AI use.
